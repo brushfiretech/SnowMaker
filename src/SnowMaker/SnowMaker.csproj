@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SnowMaker</AssemblyName>
+    <RootNamespace>SnowMaker</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>tathamoddie jason</Authors>
+    <Company>BrushFire</Company>
+    <PackageId>snowmaker</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>

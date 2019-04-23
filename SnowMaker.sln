@@ -1,20 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowMaker", "SnowMaker\SnowMaker.csproj", "{0AD4FCE5-6968-4B85-9159-50F63D168907}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnowMaker", "src\SnowMaker\SnowMaker.csproj", "{6E26831F-A791-4930-84E8-8E8C4DCD398F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E1BB869-9152-48ED-9D43-D846800D7DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnowMaker.UnitTests", "test\UnitTests\SnowMaker.UnitTests.csproj", "{F8E49CCB-2C29-4687-8ACD-FBBEDB92CBD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{2D578C72-24A1-4EE0-A5E8-30D76FC297B8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{697EEC17-828B-4AD0-B4BD-4F7422D406F7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{468FD449-DA90-4C2F-B595-B4D5EA828F46}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnowMaker.IntegrationTests", "test\IntegrationTests\SnowMaker.IntegrationTests.csproj", "{D0AC2626-0782-4D92-B019-C61F7A422BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,20 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AD4FCE5-6968-4B85-9159-50F63D168907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AD4FCE5-6968-4B85-9159-50F63D168907}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AD4FCE5-6968-4B85-9159-50F63D168907}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AD4FCE5-6968-4B85-9159-50F63D168907}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D578C72-24A1-4EE0-A5E8-30D76FC297B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D578C72-24A1-4EE0-A5E8-30D76FC297B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D578C72-24A1-4EE0-A5E8-30D76FC297B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D578C72-24A1-4EE0-A5E8-30D76FC297B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{697EEC17-828B-4AD0-B4BD-4F7422D406F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{697EEC17-828B-4AD0-B4BD-4F7422D406F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{697EEC17-828B-4AD0-B4BD-4F7422D406F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{697EEC17-828B-4AD0-B4BD-4F7422D406F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E26831F-A791-4930-84E8-8E8C4DCD398F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E26831F-A791-4930-84E8-8E8C4DCD398F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E26831F-A791-4930-84E8-8E8C4DCD398F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E26831F-A791-4930-84E8-8E8C4DCD398F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E49CCB-2C29-4687-8ACD-FBBEDB92CBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E49CCB-2C29-4687-8ACD-FBBEDB92CBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E49CCB-2C29-4687-8ACD-FBBEDB92CBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E49CCB-2C29-4687-8ACD-FBBEDB92CBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AC2626-0782-4D92-B019-C61F7A422BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AC2626-0782-4D92-B019-C61F7A422BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AC2626-0782-4D92-B019-C61F7A422BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AC2626-0782-4D92-B019-C61F7A422BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05F845DD-57C9-4569-8660-A10A7673A460}
 	EndGlobalSection
 EndGlobal

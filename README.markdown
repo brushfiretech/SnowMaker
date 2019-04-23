@@ -7,3 +7,5 @@ Available on NuGet as SnowMaker: [http://nuget.org/List/Packages/SnowMaker](http
 Documented at [http://blog.tatham.oddie.com.au/2011/07/14/released-snowmaker-a-unique-id-generator-for-azure-or-any-other-cloud-hosting-environment/](http://blog.tatham.oddie.com.au/2011/07/14/released-snowmaker-a-unique-id-generator-for-azure-or-any-other-cloud-hosting-environment/)
 
 Heavily inspired by, and some code copied from [http://msdn.microsoft.com/en-us/magazine/gg309174.aspx](http://msdn.microsoft.com/en-us/magazine/gg309174.aspx)
+
+Ported to netstandard 2.0 and updated to use newer dependencies (azure storage SDKs, etc.)
