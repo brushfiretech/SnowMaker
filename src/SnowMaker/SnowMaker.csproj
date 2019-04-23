@@ -5,9 +5,14 @@
     <AssemblyName>SnowMaker</AssemblyName>
     <RootNamespace>SnowMaker</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>tathamoddie jason</Authors>
+    <Authors>Tatham Oddie, Jamal Abreu and Jason Shigley</Authors>
     <Company>BrushFire</Company>
-    <PackageId>snowmaker</PackageId>
+    <PackageId>snowmaker.netstandard20</PackageId>
+    <Description>High performance, distributed unique id generator for Azure environments.</Description>
+    <RepositoryUrl>https://github.com/brushfiretech/snowmaker</RepositoryUrl>
+    <RepositoryType>.net</RepositoryType>
+    <PackageTags>azure</PackageTags>
+    <PackageProjectUrl>http://l.tath.am/snowmaker</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
